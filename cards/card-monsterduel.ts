@@ -53,3 +53,4 @@ const monsterDuel: Tcard[] = [
     { card_id: 50, card_name: "Decode Talker", level: 3, atk: 2300, def: 0 },
   ];
   
+  export default monsterDuel;
