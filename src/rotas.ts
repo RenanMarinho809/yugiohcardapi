@@ -19,4 +19,4 @@ rotas.get('/cards/:id',getCardById);
 
 
 
-export default rotas;
+export default rotas; 
