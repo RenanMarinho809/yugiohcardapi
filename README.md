@@ -17,5 +17,7 @@ A **yugiohcard Api** permite:
 
 - 🔍 Listar todas as cartas disponíveis.  
 - 🔍 Buscar card por ID
+- 🔍 Buscar card por nome
 
-![Logo do yugiohCard](./img/yougiohcard.png);
+
+![Logo do Yu-Gi-oh Card Api](./img/yougiohcard.png)
