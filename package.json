@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/RenanMarinho809/yugiohcardapi/issues"
   },
-  "homepage": "https://github.com/RenanMarinho809/yugiohcardapi#readme"
+  "homepage": "https://github.com/RenanMarinho809/yugiohcardapi#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
 }
