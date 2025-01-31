@@ -1,4 +1,4 @@
-import express, { Request, Response } from 'express';
+import express from 'express';
 import dotenv from 'dotenv';
 
 
@@ -9,7 +9,7 @@ app.use(express.json());
 
 const port = process.env.PORT
 
-app.get('/', (req:Request, res:Response) => {
+app.get('/', (req, res) => {
      res.send('Yugi-oh Card API');
 });
 
