@@ -4,7 +4,9 @@
   "description": "Bem-vindo à **yugiohcard Api**! Esta é uma API desenvolvida com o objetivo de gerenciar informações sobre cartas do universo Yu-Gi-Oh! 🚀. Com ela, você pode realizar operações de CRUD (Create, Read, Update e Delete) para acessar e organizar os dados das cartas.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
     "express": "^4.21.2"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
