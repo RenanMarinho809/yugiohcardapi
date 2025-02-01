@@ -4,14 +4,6 @@ import getMonsterByID from "../controllers/getMonsterByID";
 import getMonsterByName from "../controllers/getCarbyName";
 
 
-
-
-
-
-
-
-
-
 const rotas = Router();
 
 rotas.get('/cards', getCardList);
